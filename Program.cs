@@ -9,7 +9,7 @@ string[] array = new string[] { "qwe", "asd", "Hjkl", "h7tld", "redis", "fl" };
 //Вызов функции печати с 0 элемента массива
 PrntText(array, 0);
 
-//Функция печати и проверки длинны строки
+//Функция печати и проверки длины строки
 void PrntText(string[] STR, int a)
 {
     if (a < STR.Length)     //Условие для выполнения рекурсивного вызова
