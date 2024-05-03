@@ -6,3 +6,14 @@
 
 string[] array = new string [] {"qwe","asd","Hjkl","h7tld","redis"};
 // int[] array = new int[] { 1, 2, 4, 5, 6, 7, 8 };
+
+PrntText (array, array.Length);
+    
+    void PrntText (string[] STR, int a)
+{
+    if (a>0) 
+    {
+    Console.Write($"{STR[array.Length-a]} ");
+    PrntText (array, --a);
+    }
+}
