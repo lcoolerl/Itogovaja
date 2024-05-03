@@ -6,18 +6,10 @@
 //Начальный массив строк
 string[] array = new string[] { "qwe", "asd", "Hjkl", "h7tld", "redis", "fl" };
 
-//Вызов функции печати с 0 элемента массива
-PrntText(array, 0);
-
-//Функция печати и проверки длины строки
-void PrntText(string[] STR, int a)
-{
-    if (a < STR.Length)     //Условие для выполнения рекурсивного вызова
-    {
-        if (STR[a].Length <= 3)     //Условие печати, проверка длины строки
-        {
-            Console.Write($"{STR[a]} ");
-        }
-        PrntText(array, ++a);   //Рекурсивный вызов
-    }
-}
+for (int i=0; i < array.Length; i++)
+     {
+     if (array[i].Length<=3)
+     {
+          Console.Write($"{array[i]} ");
+     }
+     }
