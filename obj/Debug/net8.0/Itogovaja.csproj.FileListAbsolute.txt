@@ -12,3 +12,4 @@ C:\C#_files\Itogovaja\obj\Debug\net8.0\refint\Itogovaja.dll
 C:\C#_files\Itogovaja\obj\Debug\net8.0\Itogovaja.pdb
 C:\C#_files\Itogovaja\obj\Debug\net8.0\Itogovaja.genruntimeconfig.cache
 C:\C#_files\Itogovaja\obj\Debug\net8.0\ref\Itogovaja.dll
+C:\C#_files\Itogovaja\obj\Debug\net8.0\Itogovaja.sourcelink.json
