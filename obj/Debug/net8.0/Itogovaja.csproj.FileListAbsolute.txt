@@ -1,0 +1,14 @@
+C:\C#_files\Itogovaja\bin\Debug\net8.0\Itogovaja.exe
+C:\C#_files\Itogovaja\bin\Debug\net8.0\Itogovaja.deps.json
+C:\C#_files\Itogovaja\bin\Debug\net8.0\Itogovaja.runtimeconfig.json
+C:\C#_files\Itogovaja\bin\Debug\net8.0\Itogovaja.dll
+C:\C#_files\Itogovaja\bin\Debug\net8.0\Itogovaja.pdb
+C:\C#_files\Itogovaja\obj\Debug\net8.0\Itogovaja.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#_files\Itogovaja\obj\Debug\net8.0\Itogovaja.AssemblyInfoInputs.cache
+C:\C#_files\Itogovaja\obj\Debug\net8.0\Itogovaja.AssemblyInfo.cs
+C:\C#_files\Itogovaja\obj\Debug\net8.0\Itogovaja.csproj.CoreCompileInputs.cache
+C:\C#_files\Itogovaja\obj\Debug\net8.0\Itogovaja.dll
+C:\C#_files\Itogovaja\obj\Debug\net8.0\refint\Itogovaja.dll
+C:\C#_files\Itogovaja\obj\Debug\net8.0\Itogovaja.pdb
+C:\C#_files\Itogovaja\obj\Debug\net8.0\Itogovaja.genruntimeconfig.cache
+C:\C#_files\Itogovaja\obj\Debug\net8.0\ref\Itogovaja.dll
