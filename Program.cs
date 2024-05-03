@@ -4,16 +4,19 @@
 // на старте выполнения алгоритма. При решении не рекомендуется пользоваться коллекциями, лучше обойтись исключительно массивами.
 
 
-string[] array = new string [] {"qwe","asd","Hjkl","h7tld","redis"};
+string[] array = new string[] { "qwe", "asd", "Hjkl", "h7tld", "redis", "fl" };
 // int[] array = new int[] { 1, 2, 4, 5, 6, 7, 8 };
 
-PrntText (array, array.Length);
-    
-    void PrntText (string[] STR, int a)
+PrntText(array, 0);
+
+void PrntText(string[] STR, int a)
 {
-    if (a>0) 
+    if (a < STR.Length)
     {
-    Console.Write($"{STR[array.Length-a]} ");
-    PrntText (array, --a);
+        if (STR[a].Length <= 3)
+        {
+            Console.Write($"{STR[a]} ");
+        }
+        PrntText(array, ++a);
     }
 }
