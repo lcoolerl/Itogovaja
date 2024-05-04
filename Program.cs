@@ -5,12 +5,22 @@
 
 //Начальный массив строк
 string[] array = new string[] { "qwe", "asd", "Hjkl", "h7tld", "redis", "fl" };
+string[] newarray = new string[array.Length];
 int n=3;
-
+int l=0;
+//Создание нового массива
 for (int i=0; i < array.Length; i++)
      {
      if (array[i].Length<=n)
      {
-          Console.Write($"{array[i]} ");
+          newarray[l]=array[i];
+          l++;
      }
+     }
+// newarray=newarray.Trim();
+System.Console.WriteLine(newarray.Length);
+//Вывод полученного массива на экран
+for (int j=0; j < newarray.Length; j++)
+     {
+          Console.Write($"{newarray[j]} ");
      }
