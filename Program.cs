@@ -6,8 +6,8 @@
 //Начальный массив строк
 string[] array = new string[] { "qwe", "asd", "Hjkl", "h7tld", "redis", "fl" };
 int n = 3;     //Длина строк в новом массиве
-int m = 0;
-int l = 0;
+int m = 0;     //Счетчик для цикла создания нового массива
+int l = 0;     //Счетчик для функции (LengthNewArray)
 string[] newarray = new string[LengthNewArray(array)]; //Объявление нового массива с определением его длины через функцию
 
 //Функция определения длины нового массива
@@ -22,6 +22,7 @@ int LengthNewArray(string[] STR)
      }
      return l;
 }
+
 //Создание нового массива
 for (int j = 0; j < array.Length; j++)
 {
