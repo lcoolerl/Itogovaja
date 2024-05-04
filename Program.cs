@@ -5,22 +5,35 @@
 
 //Начальный массив строк
 string[] array = new string[] { "qwe", "asd", "Hjkl", "h7tld", "redis", "fl" };
-string[] newarray = new string[array.Length];
-int n=3;
-int l=0;
+int n = 3;     //Длина строк в новом массиве
+int m = 0;
+int l = 0;
+string[] newarray = new string[LengthNewArray(array)]; //Объявление нового массива с определением его длины через функцию
+
+//Функция определения длины нового массива
+int LengthNewArray(string[] STR)
+{
+     for (int i = 0; i < STR.Length; i++)
+     {
+          if (STR[i].Length <= n)
+          {
+               l++;
+          }
+     }
+     return l;
+}
 //Создание нового массива
-for (int i=0; i < array.Length; i++)
+for (int j = 0; j < array.Length; j++)
+{
+     if (array[j].Length <= n)
      {
-     if (array[i].Length<=n)
-     {
-          newarray[l]=array[i];
-          l++;
+          newarray[m] = array[j];
+          m++;
      }
-     }
-// newarray=newarray.Trim();
-System.Console.WriteLine(newarray.Length);
+}
+
 //Вывод полученного массива на экран
-for (int j=0; j < newarray.Length; j++)
-     {
-          Console.Write($"{newarray[j]} ");
-     }
+foreach (string s in newarray)
+{
+     Console.Write($"{s} ");
+}
