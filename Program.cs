@@ -5,10 +5,11 @@
 
 //Начальный массив строк
 string[] array = new string[] { "qwe", "asd", "Hjkl", "h7tld", "redis", "fl" };
+int n=3;
 
 for (int i=0; i < array.Length; i++)
      {
-     if (array[i].Length<=3)
+     if (array[i].Length<=n)
      {
           Console.Write($"{array[i]} ");
      }
